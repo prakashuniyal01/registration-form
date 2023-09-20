@@ -1,7 +1,7 @@
 export { fakeBackend };
 
 // array in local storage for registered users
-const usersKey = 'react-18-redux-registration-login-example-users';
+const usersKey = 'redux-registration-login';
 let users = JSON.parse(localStorage.getItem(usersKey)) || [];
 
 function fakeBackend() {
